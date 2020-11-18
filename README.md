@@ -2,5 +2,5 @@
 
 Another problem with exception.
 
-First I tried to solve this problem with 'atoi', but 'atoi' throws 0 as exception.
+First I tried to solve this problem with 'atoi', but 'atoi' has no-throw guarantee: this function never throws exceptions.
 Therefore I used stoi function.
